@@ -1,0 +1,23 @@
+"target/.settings/.classpath/.project/.factorypath bin/" 
+# Compilados e pacotes
+/target/
+*.class
+*.war
+*.ear
+*.jar
+
+# IDEs (VS Code e IntelliJ)
+.vscode/
+.settings/
+.classpath/
+.project/
+.factorypath
+.idea/
+*.iml
+
+# Arquivos de log e temporários
+*.log
+/bin/
+
+# Configurações locais (senhas de banco, etc)
+application-local.properties
