@@ -1,0 +1,21 @@
+### Listar Salas
+GET http://localhost:8080/api/salas
+
+### Criar uma Sala
+POST http://localhost:8080/api/salas
+Content-Type: application/json
+
+{
+  "nome": "Sala Alpha",
+  "capacidade": 12
+}
+### Criar uma Reserva para a Sala 2 (Sucesso)
+POST http://localhost:8080/api/reservas
+Content-Type: application/json
+
+{
+    "usuario": { "id": 1 },
+    "sala": { "id": 2 },
+    "inicio": "2026-03-30T10:00:00",
+    "fim": "2026-03-30T11:00:00"
+}
